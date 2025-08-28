@@ -1,0 +1,68 @@
+{
+  "id": "english-a-2021-p1",
+  "subject": "English A",
+  "year": 2021,
+  "paperNumber": 1,
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The distinguished actor avoided the press whenever he was on holidays.",
+      "type": "multiple-choice",
+      "options": [
+        "praised",
+        "attacked",
+        "contacted",
+        "interviewed"
+      ],
+      "correctAnswer": "praised"
+    },
+    {
+      "id": "q2",
+      "text": "The compassionate man was known by many in the crowd.",
+      "type": "multiple-choice",
+      "options": [
+        "fussy",
+        "cruel",
+        "indifferent",
+        "dissatisfied"
+      ],
+      "correctAnswer": "cruel"
+    },
+    {
+      "id": "q3",
+      "text": "As far as I am concerned, the lattice windows are the most conspicuous feature on the building.",
+      "type": "multiple-choice",
+      "options": [
+        "negative",
+        "important",
+        "insignificant",
+        "understandable"
+      ],
+      "correctAnswer": "insignificant"
+    },
+    {
+      "id": "q4",
+      "text": "It seemed probable that the country will maintain the curfew for another week.",
+      "type": "multiple-choice",
+      "options": [
+        "unlikely",
+        "impudent",
+        "undecided",
+        "inevitable"
+      ],
+      "correctAnswer": "unlikely"
+    },
+    {
+      "id": "q5",
+      "text": "Many teenagers and even some parents do not agree with the amount of restrictiveness in today's society.",
+      "type": "multiple-choice",
+      "options": [
+        "strife",
+        "cruelty",
+        "permissiveness",
+        "competitiveness"
+      ],
+      "correctAnswer": "permissiveness"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Carib Scholar</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Carib Scholar</div>
+            <ul id="nav-links">
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/exam">Exams</a></li>
+                <li><a href="#" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="dashboard-content">
+        <h1>Welcome!</h1>
+        <p id="subscription-status">Subscription Status: Loading...</p>
+
+        <section id="progress-summary">
+            <h2>Your Progress</h2>
+            <div class="chart-container">
+                <p>Progress tracking will be shown here after you complete your first exam.</p>
+                <canvas id="progress-chart"></canvas>
+            </div>
+        </section>
+
+        <section id="actions">
+            <a href="/exam" class="btn-primary">Go to Exams</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carib Scholar. All rights reserved.</p>
+    </footer>
+    <script type="module" src="/assets/js/dashboard.js"></script>
+    <script type="module" src="/assets/js/auth-status.js"></script>
+</body>
+</html>

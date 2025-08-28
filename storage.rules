@@ -1,0 +1,14 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Free content
+    match /assets/free-papers/{subject}/{paper} {
+      allow read: if true;
+    }
+    
+    // Premium content
+    match /assets/premium-papers/{subject}/{paper} {
+      allow read: if request.auth != null && request.auth.token.premium == true;
+    }
+  }
+}

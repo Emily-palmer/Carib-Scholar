@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - Carib Scholar</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Carib Scholar</div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/dashboard">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pricing-plan">
+            <h2>Subscription Plan</h2>
+            <div class="plan-card">
+                <h3>Carib Scholar Pro</h3>
+                <p class="price">$9.99/month</p>
+                <ul>
+                    <li>Access to all CSEC past papers</li>
+                    <li>Gemini AI marking and explanations</li>
+                    <li>Progress tracking dashboard</li>
+                    <li>Filter papers by topic</li>
+                </ul>
+                <div id="paypal-button-container"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carib Scholar. All rights reserved.</p>
+        <a href="/privacy">Privacy Policy</a> | <a href="/terms">Terms of Service</a>
+    </footer>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&vault=true&intent=subscription"></script>
+    <script type="module" src="/assets/js/premium.js"></script>
+    <script type="module" src="/assets/js/auth-status.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "id": "english-a-2021-p2",
+  "subject": "English A",
+  "year": 2021,
+  "paperNumber": 2,
+  "questions": [
+    {
+      "id": "q1-summary",
+      "text": "Read the following article on celebrity relationships carefully and list FIVE MAIN points discussed, then write a summary of the article in NOT MORE THAN 120 words. Your summary MUST include the five points identified AND other relevant points.",
+      "type": "essay"
+    },
+    {
+      "id": "q2-email",
+      "text": "John Mason, a 16-year old, wants to find out what must be done in order to obtain his driver's licence. He called the licensing office many times but was unable to reach anyone. He decides to write an email using the email address he obtained. He must write to Mr Kenneth Davy, Head of the Traffic Department of the Royal St Taba Police Force. He wants the following information: The minimum age to acquire a driver's licence, The tests (theory and practical) which must be taken, The length of time it takes to get the licence after passing the test, The days the tests are taken, The cost of the driver's licence. Write the email using the information given. Make sure to include all the relevant details in the email to ensure that all the information is received.",
+      "type": "essay"
+    },
+    {
+      "id": "q3-short-story-picture",
+      "text": "Write a story based on the picture below.",
+      "type": "essay",
+      "image": "/assets/img/csec_eng_a_2021_p2_q3.jpg"
+    },
+    {
+      "id": "q4-short-story-sentences",
+      "text": "Write a story which includes these sentences: 'Kate stepped into the room and everyone immediately began to cheer. She knew this was the greatest feeling she would ever experience.'",
+      "type": "essay"
+    },
+    {
+      "id": "q5-essay",
+      "text": "Write an essay giving your views on the statement: 'Parents of children who vandalise schools and other public property must pay heavy fines to the government for their children's actions.'",
+      "type": "essay"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Exam - Carib Scholar</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Carib Scholar</div>
+            <ul>
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/exam">Exams</a></li>
+                <li><a href="#" id="logout-btn">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="exam-selection-container">
+        <h1>Select a Subject</h1>
+        <section id="subject-list">
+            <div class="subject-card" data-subject="english-a">
+                <h3>English A</h3>
+                <div class="paper-dropdown">
+                    <a href="/papers?paperId=english-a-2021-p1" class="paper-link">2021 Paper 1</a>
+                    <a href="/papers?paperId=english-a-2021-p2" class="paper-link">2021 Paper 2</a>
+                </div>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Carib Scholar. All rights reserved.</p>
+    </footer>
+    <script type="module" src="/assets/js/exam-selection.js"></script>
+    <script type="module" src="/assets/js/auth-status.js"></script>
+</body>
+</html>
